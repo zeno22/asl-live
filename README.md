@@ -7,7 +7,7 @@ Once the data is collected and standardized, it is used for training the neural 
 
 Finally this training data is used to make live predictions.
 
-<h6>Description of Files :</h6>
+<h3>Description of Files :</h3>
 
 Converter.py:  used for converting pre existing datasets that can be found on kaggle and elsewhere. The parameters in the converter script can be changed and set to different standard. However it would be better to set a uniform standard throughout your data by accordingly adjusting the parameters of the rest of the scripts.
 
@@ -26,7 +26,7 @@ model-asl-bw.h5, model-asl-bw.json - Saved model for making predictions - used a
 As I mentioned tweaking the Neural Network might yield better results.
 NOTE:  Training these networks on potato computer will take a lot of time. Took me a decent amount of time to train this model even though I used tensorflow-gpu.
 
-<h6>Future Work:</h6>
+<h3>Future Work:</h3>
 - I would like to add j and z
 - Imporve accuracy under variable environmental conditions
 - Implement it in a Python based embedded system like Anki Cozmo/Vector to help people learn ASL.
