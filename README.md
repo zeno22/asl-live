@@ -24,4 +24,9 @@ model-asl-bw.h5, model-asl-bw.json - Saved model for making predictions - used a
 As I mentioned tweaking the Neural Network might yield better results.
 NOTE:  Training these networks on potato computer will take a lot of time. Took me a decent amount of time to train this model even though I used tensorflow-gpu.
 
+Future Work:
+- I would like to add j and z
+- Imporve accuracy under variable environmental conditions
+- Implement it in a Python based embedded system like Anki Cozmo/Vector to help people learn ASL.
+
 Let me know if you have any question or queries at vakarahmed59(at)gmail(dot)com.
