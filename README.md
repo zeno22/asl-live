@@ -1,3 +1,4 @@
+<h1>Overview</h1>
 This was a project I did for a class in image processing. 
 
 Basically it uses a trained neural network to recognize the gestures. I started off with collecting image datasets from online resources. Then I created a script to generate my own data. The scripts will standardize all the collected and covered data to 32x32 resolution with a canny filter applied for gesture feature enhancement.
@@ -6,7 +7,8 @@ Once the data is collected and standardized, it is used for training the neural 
 
 Finally this training data is used to make live predictions.
 
-Description of Files :
+<h6>Description of Files :</h6>
+
 Converter.py:  used for converting pre existing datasets that can be found on kaggle and elsewhere. The parameters in the converter script can be changed and set to different standard. However it would be better to set a uniform standard throughout your data by accordingly adjusting the parameters of the rest of the scripts.
 
 data-generator.py: used for generating custom data. This script will create directories for all the letters under the ‘train’ and ‘test’ folders. Just change switch between the two to store the collected data in the corresponding folders.
@@ -24,7 +26,7 @@ model-asl-bw.h5, model-asl-bw.json - Saved model for making predictions - used a
 As I mentioned tweaking the Neural Network might yield better results.
 NOTE:  Training these networks on potato computer will take a lot of time. Took me a decent amount of time to train this model even though I used tensorflow-gpu.
 
-Future Work:
+<h6>Future Work:</h6>
 - I would like to add j and z
 - Imporve accuracy under variable environmental conditions
 - Implement it in a Python based embedded system like Anki Cozmo/Vector to help people learn ASL.
